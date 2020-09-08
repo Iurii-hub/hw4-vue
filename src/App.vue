@@ -1,28 +1,31 @@
 <template>
-  <div id="app">
+  <div>
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>HomeWork - 4 router</h1>
+
+    <!-- Створити сайт візитку (Текст не важливий, дизайн також)
+    Має бути 3 компоненти (Home, Contacts, MyProjects);
+    Компонент Home має мати фотку, картинку і паро параграфів з текстом.. Компонент Contacts має мати поле з контакнами, 
+    можете також вставити гугл мепс за допомогою ай фрейм Компонент MyProjects має мати ваш тудуліст)) (поки що)
+    Потрібно створити масив роутів; підключити router-view, а також не забуваєм в main.js заюзати роутер. 
+    Аппка має працювати без перезагрузки сторінок.
+     -->
+
+
+     
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
