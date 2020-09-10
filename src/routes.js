@@ -1,5 +1,5 @@
-import Home from "./components/Home";
-import User from "./components/User/User";
+import Home from "@/components/Home";
+import User from "@/components/User/User";
 
 export const routes = [
     {

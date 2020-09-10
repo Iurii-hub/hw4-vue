@@ -11,6 +11,9 @@
     Аппка має працювати без перезагрузки сторінок.
      -->
 
+    <router-view/>
+    <Header/>
+
 
      
   </div>
@@ -18,10 +21,11 @@
 
 <script>
 
+import Header from "@/components/Header";
 export default {
   name: 'App',
   components: {
-    
+    Header
   }
 }
 </script>
