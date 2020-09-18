@@ -1,12 +1,16 @@
 import Home from "@/components/Home";
-import User from "@/components/User/User";
+import Contacts from "@/components/Contacts";
+import MyProjects from "@/components/MyProjects";
 
 export const routes = [
     {
         path: "", component: Home
     },
     {
-        path: "/user", component: User
+        path: "/contacts", component: Contacts
+    },
+    {
+        path: "/myProjects", component: MyProjects
     },
 ]
 

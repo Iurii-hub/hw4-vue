@@ -1,13 +1,37 @@
 <template>
   <div>
-      <ul class="nav nav-pills">
-  <li class="nav-item">
-    <router-link class="nav-link" active-class="active" exact to="/">Home</router-link>
-  </li>
-  <li class="nav-item">
-    <router-link class="nav-link" active-class="active" to="/user">User</router-link>
-  </li>
-</ul>
+
+    <ul class="nav nav-pills">
+
+      <li class="nav-item">
+        <router-link 
+        class="nav-link" 
+        active-class="active" 
+        exact to="/">
+        Home
+        </router-link>
+      </li>
+
+      <li class="nav-item">
+        <router-link
+        class="nav-link" 
+        active-class="active" 
+        to="contacts">
+        Contacts
+        </router-link>
+      </li>
+
+      <li class="nav-item">
+        <router-link
+        class="nav-link" 
+        active-class="active" 
+        to="myProjects">
+        MyProjects
+        </router-link>
+      </li>
+
+    </ul>
+    
   </div>
 </template>
 
